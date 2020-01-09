@@ -14,13 +14,14 @@ POST http://localhost:3000/books
 Content-Type: application/json
 
 {
-  "name": "jack",
-  "price": 216
+  "album_id": 3751333,
+  "album_name": "测试唱片9",
+  "price": 888
 }
 
 ###
 
-DELETE http://localhost:3000/books/5e15982a8db67b0dee224f90
+DELETE http://localhost:3000/books/5e1693d6a54cb3155c1aa8af
 Accept: application/json
 
 ###
